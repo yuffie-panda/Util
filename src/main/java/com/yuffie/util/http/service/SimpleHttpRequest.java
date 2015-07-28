@@ -76,6 +76,7 @@ public class SimpleHttpRequest {
 			entity.setResponseData(strbuf.toString());
 			return entity;
 		} catch (Exception ex) {
+			// TODO add log
 			return new ResponseEntity();
 		}
 	}
@@ -111,6 +112,7 @@ public class SimpleHttpRequest {
 			entity.setResponseData(strbuf.toString());
 			return entity;
 		} catch (Exception ex) {
+			// TODO add log
 			return new ResponseEntity();
 		}
 	}
