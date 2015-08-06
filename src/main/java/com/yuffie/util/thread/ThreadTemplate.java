@@ -18,5 +18,7 @@ public class ThreadTemplate extends Thread {
     
     public void run() {
         // TODO add function here
+    	System.out.println(args);
+    	return ;
     }
 }
